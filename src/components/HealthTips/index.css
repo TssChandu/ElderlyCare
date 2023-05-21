@@ -1,0 +1,37 @@
+.bg-container{
+    height: 100vh;
+    width: 100vw;
+}
+.tips-img{
+    width: 800px;
+    height: 300px;
+    max-width: 50vw;
+}
+.health-tips-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    overflow-y: scroll;
+    background-color: #ecad83;
+    padding: 40px 120px;
+    height: 100%;
+    width: 100%;
+    margin-top: 0px;
+    list-style-type: none;
+}
+.tip-heading{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 26px;
+    color: #050505;
+}
+.tip-description{
+    font-family: 'Times New Roman';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    color: #050505;
+}
