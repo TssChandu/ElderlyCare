@@ -9,6 +9,13 @@
     height: 103px;
     width: 100vw;
 }
+.nav-links-container{
+  display: flex;
+
+}
+.health-calculator:hover{
+  color: #00f87c;
+}
 .health-calculator{
   font-family: 'Roboto';
   font-style: normal;

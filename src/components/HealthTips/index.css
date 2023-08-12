@@ -1,5 +1,6 @@
 .bg-container{
-    height: 100vh;
+    min-height: 100vh;
+    height: 100%;
     width: 100vw;
 }
 .tips-img{
@@ -12,11 +13,10 @@
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
-    overflow-y: scroll;
     background-color: #ecad83;
     padding: 40px 120px;
     height: 100%;
-    width: 100%;
+    width: 100vw;
     margin-top: 0px;
     list-style-type: none;
 }

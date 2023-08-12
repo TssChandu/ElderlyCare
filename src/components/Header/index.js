@@ -24,9 +24,14 @@ class Header extends Component{
                         <h1 className='nav-heading'>Elderly Care</h1>
                     </Link>
                 </div>
-                <Link to = "/health-calculator" className='link-style' >
-                    <p className='health-calculator'>Health Calculator</p>
-                </Link>
+                <div className="nav-links-container">
+                    <Link to = "/health-calculator" className='link-style' >
+                        <p className='health-calculator'>Health Calculator</p>
+                    </Link>
+                    <Link to = "/appointments" className='link-style' >
+                        <p className='health-calculator'>Get Doctor Appointment</p>
+                    </Link>
+                </div>
                 <button type='button' className='close-btn' onClick={this.onClosing}>
                     <FiMenu size={35} color='#ffffff'/>        
                 </button>     

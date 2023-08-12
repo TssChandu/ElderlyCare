@@ -9,8 +9,10 @@
     width: 100vw;
 }
 .bg-container{
-    height: 100vh;
+    height: 100%;
     width: 100vw;
+    min-height: 100vh;
+    padding: 0px !important;
 }
 .main-heading{
     font-family: 'Roboto';

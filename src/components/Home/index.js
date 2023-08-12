@@ -1,4 +1,5 @@
 import {Link} from 'react-router-dom'
+import recreationalImage from '../../assets/Social_Recreational_Activities.jpg'
 import Header from '../Header'
 import './index.css'
 
@@ -23,7 +24,7 @@ const Home = () => (
                 </div>
                 <div className='health-content-container'>
                     <h1 className='Home-heading'>Importance of Recreational Activities</h1>
-                    <img className='home-imgs' src="https://emoha.com/blogs/wp-content/uploads/2021/06/recreational-activities-for-elderly.jpeg" alt="health tips"/>
+                    <img className='home-imgs' src={recreationalImage} alt="recreationImage"/>
                     <p className='home-para'>Recreation is the key to having a healthy mind, along with a healthy life. 
                     Indulging in physical activities has been observed to not only improve functioning but also mental 
                     health of older adults. Recreational activities for senior citizens help them improve their quality
